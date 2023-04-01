@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Contact Form</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="css/general.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+	<header>
+		<h1 class="header">Orange Sea</h1>
+		<nav>
+			<ul>
+				<li class="nav"><a href="index.html">Home</a></li>
+				<li class="nav"><a href="abouts.html">About</a></li>
+				<li class="nav"><a href="service.html">Services</a></li>
+				<li class="nav"><a href="gallery.html">Gallery</a></li>
+				<li class="nav"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>    	 
+	  <div class="form">
+	  <form>
+	   <fieldset class="first">
+	   <legend>
+	  Contact us:
+	   </legend>
+		<a class="pirobox" href="img/map.jpg" title="Our Location">
+		<img width="300" height="150" src="img/map.jpg" alt="Our Location in Yangon" class="image_wrapper" />
+		</a>			
+		<h4>Mailing Address</h4>
+		<h6><strong>Location</strong></h6>
+		<p>University of Cape Coast,</p>
+		<p>School of Agriculture and Physical Science, CANS2435</p>
+		<p>Department of Computer Science and Information Technology.</p>
+		<p><b>Phone:</b> 020-060-6620</p>
+		<p><b>Email:</b> <a href="mailto:https//www.ucc.edu.gh">Prof.Joojo@gmail.com</a></p>		   
+	  </fieldset>
+	  </form>
+	  <form>
+	  <fieldset class="second">
+	   <legend>
+	  Your Review:
+	   </legend>
+	   Name:
+		 <input type="text" name="uname" id="name" required="required"/>
+	  <br />
+	  Email:
+	  <label>
+		 <input type="text" id="mail" name="email" required="required"/>
+		   </label>
+	  <p>
+		   <label for="hearAboutUs" id="about us">
+	  How did you hear about us?
+		   </label>
+			  <select name="referrer" id="hear about">
+				 <option value="google">Google</option>
+				 <option value="advert">Advert</option>
+				 <option value="radio">Radio</option>
+				 <option value="others" selected="selected">Others</option>
+		</select>
+	  </p>
+	  <p>
+	  Would you visit again?
+	  <br />
+		  <label>
+			<input type="radio" id="yes"name="visit" value="yes" checked="checked">
+			Yes
+		  </label>
+		  <label>
+			<input type="radio" id="no" name="visit" value="no">
+			No
+		  </label>
+		  <label>
+		  <input type="radio" id="maybe" name="visit" value="maybe">
+		  Maybe
+		  </label>
+	  </p>
+	  <p>
+	  Choose the favorite sports you prefer(you can choose more than one)
+	  <br />
+		 <label>
+			<input type="checkbox" name="favorite" id="soccer" value="soc" checked="checked">
+	  Soccer
+		 </label>
+	  <br />
+		 <label>
+			<input type="checkbox" name="favorite" id="vol" value="volley">
+	  Volley
+		 </label>
+		 <label>
+	  <br />
+			<input type="checkbox" name="favorite" id="gol" value="golf">
+	  Golf
+		 </label>
+	  <br />
+		 <label>
+			<input type="checkbox" name="favorite" id="ltennis" value="long tennis">
+	  Long Tennis
+		 </label>
+	  </p>
+	  <p>
+		 <label>
+	  Comments:
+		 </label>
+	  <br />
+			  <textarea name="comments" id="comment" rows="5" cols="30" maxlength="100" placeholder="Enter your comments here:">
+			  </textarea>
+	  </p>
+		 <label>
+			 <input type="checkbox" id="update" checked="checked">
+	  sign me up for email updates
+	  <p></label></p>
+			 <input type="submit" id="sub" value="Submit review" />
+	  </fieldset>
+	  </form>
+	  </div> 	
+		<footer>
+			Copyright © 2048 <a href="#">Group 5</a> - Web Technology Project: 
+			<a href="http://www.ucc.edu.gh">Information Technology</a>
+		</footer>
+</body>
+</html>
